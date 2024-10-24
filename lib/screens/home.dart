@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
       padding: EdgeInsets.only(
         right: 10,
         left: 10,
-        top: 30
+        top: 10
       ),
       child: Column(
         children: [

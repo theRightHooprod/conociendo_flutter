@@ -3,9 +3,20 @@ import 'package:flutter/material.dart';
 import 'screens/home.dart';
 
 void main() {
-  runApp(const MaterialApp(
-    home: Scaffold(
-      body: Home(),
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.indigo,
+          title: const Center(
+            child: Text(
+              'Cow Info',
+              style: TextStyle(color: Colors.white),
+            ),
+          ),
+        ),
+        body: const Home(),
+      ),
     ),
-  ));
+  );
 }
