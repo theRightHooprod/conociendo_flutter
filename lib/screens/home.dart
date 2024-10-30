@@ -15,11 +15,11 @@ class Home extends StatelessWidget {
       ),
       child: Column(
         children: [
-          CowContainer(),
+          CowContainer(name: 'Cow 1'),
           SizedBox(height: 10),
-          CowContainer(),
+          CowContainer(name: 'Cow 2'),
           SizedBox(height: 10),
-          CowContainer()
+          CowContainer(name: 'Cow 3'),
         ],
       ),
     );
